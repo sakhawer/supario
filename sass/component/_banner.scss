@@ -1,0 +1,122 @@
+#banner {
+    height: 762px;
+    background: #D1E1F6;
+    // opacity: 0.5;
+
+    .banner_info {
+        padding: 274px 0 0 0;
+
+        p {
+            font-family: 'Poppins';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 50px;
+            line-height: 75px;
+            letter-spacing: -0.02em;
+            color: #2A2B30;
+
+            span {
+                color: #1967D3;
+
+
+            }
+        }
+
+        .banner_btn {
+            border: none;
+            outline: none;
+            width: 646px;
+            height: 86px;
+            background: #FFFFFF;
+            box-shadow: 0px 36px 80px rgba(198, 198, 198, 0.08), 0px 18.3276px 43.7337px rgba(198, 198, 198, 0.0634011), 0px 12.7647px 24.5093px rgba(198, 198, 198, 0.0485598), 0px 10.1391px 10.1382px rgba(198, 198, 198, 0.0361172), 0px 8.12102px 0px rgba(198, 198, 198, 0.02726), 0px 5.26797px 0px rgba(198, 198, 198, 0.0245384);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+
+            .banner_input {
+                width: 475px;
+                height: 44px;
+                font-family: 'Work Sans';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                letter-spacing: -0.02em;
+                color: #808080;
+                border: 0;
+
+
+            }
+
+            a {
+                padding: 10px 10px;
+                width: 100.67px;
+                height: 44px;
+                background: #1967D3;
+                opacity: 1;
+                border-radius: 5px;
+                color: #FFFFFF;
+
+            }
+
+        }
+
+        ul {
+            display: flex;
+            width: 668px;
+            height: 24px;
+            margin-top: 9px;
+            padding: 0 10px;
+
+            li {
+                max-width: 160px;
+                color: #202125;
+                font-family: 'Poppins';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+
+                a {
+                    color: #808080;
+                    transition: all linear .3s;
+                    margin-left: 5px;
+
+
+                    &:hover {
+                        color: #202125;
+
+
+                    }
+                }
+
+            }
+        }
+    }
+
+    .banner_img {
+        position: relative;
+
+        .banner_01_img {
+            position: absolute;
+            width: 490px;
+            height: 346px;
+            left: 27px;
+            top: 131px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+        .banner_02_img {
+            position: absolute;
+            width: 490px;
+            height: 346px;
+            left: 257px;
+            top: 300px;
+            border-top-right-radius: 30px;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+        }
+    }
+}
